@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="LahoreQalandars.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link rel="stylesheet" href="Content/Site.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+    <header class="navbar">
+      <img src="/Content/images/Header-Logo.png" alt="Logo" class="logo" />
+
+      <ul class="nav-links">
+        <li><a href="default.aspx">Home</a></li>
+        <li><a href="About.aspx">About Us</a></li>
+        <li><a href="squad.aspx">Squad</a></li>
+        <li><a href="Contact.aspx">Contact Us</a></li>
+      </ul>
+
+      <a href="#" class="store">Store</a>
+    </header>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+               <footer class="footer">
+      <div class="footer-content">
+        <!-- Logo and Socials -->
+        <div class="footer-column logo-section">
+          <img
+            src="/Content/images/Header-Logo.png"
+            alt="Lahore Qalandars Logo"
+            class="footer-logo"
+          />
+          <p class="tagline">Sports, Fitness & Recreation</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Explore Links -->
+        <div class="footer-column">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Fixtures</a></li>
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">QHPC</a></li>
+            <li><a href="#">My Account</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footer-column newsletter">
+          <p>
+            Subscribe to our newsletter<br />to get our news & deals<br />delivered
+            to you.
+          </p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Email Address" required />
+            <button type="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-bottom">
+        <p>Copyright © Lahore Qalandars 2025 | Privacy Policy</p>
+      </div>
+    </footer>
+        </div>
+    </form>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/Scripts/bootstrap.js") %>
+    </asp:PlaceHolder>
+</body>
+</html>

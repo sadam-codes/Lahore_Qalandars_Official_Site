@@ -1,0 +1,31 @@
+## Ignore Visual Studio and ASP.NET temporary files
+
+# Build results
+bin/
+obj/
+
+# VS files
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# IIS Express
+*.vspscc
+*.vssscc
+*.launchSettings.json
+
+# NuGet
+packages/
+*.nupkg
+
+# Logs and caches
+*.log
+*.tlog
+*.cache
+*.pdb
+
+# OS-specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/

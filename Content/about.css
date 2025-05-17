@@ -1,0 +1,248 @@
+﻿.container {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.mainAbout {
+    background: url("./images/fixtures.png");
+    padding: 60px 0px;
+}
+
+.Qalandars-heading {
+    font-size: 2.5em;
+    color: white;
+
+}
+
+.bg-color {
+    background: red;
+}
+
+.match-time-green {
+    background: green;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 10px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.divider {
+    width: 200px;
+    border: 2px solid white;
+    margin: 10px auto 30px;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 40px;
+    position: relative;
+    text-align: center;
+}
+
+    .heading::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 2px;
+        background: black;
+        margin: 10px auto 0;
+    }
+
+/* Card Layout */
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    width: 250px;
+    height: 350px;
+    perspective: 1000px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.card-container:hover .card {
+    transform: rotateY(180deg);
+}
+
+/* Card Faces */
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.card-front {
+    z-index: 2;
+}
+
+.card-back {
+    background: #d32f2f;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+/* Image inside front */
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Text inside colored front */
+.card-front-colored {
+    background: #d32f2f;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.front-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.match-card {
+    background-color: white;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin:0px 60px;
+}
+
+.team-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.match-info {
+    text-align: center;
+}
+
+.match-time {
+    background-color: #e82929;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 10px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.facilities-section {
+    padding: 60px 20px;
+}
+
+.facilities-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+    .facilities-heading::after {
+        content: "";
+        display: block;
+        width: 80px;
+        height: 2px;
+        background: black;
+        margin: 10px auto 0;
+    }
+
+.facilities-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.facility-card {
+    width: 280px;
+    background: linear-gradient(to bottom, #000000 40%, #d32f2f);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.facility-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.facility-list {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.registration-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+
+
+.registration-instruction {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.register_button {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 20px;
+    border:1px solid red;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.location-section {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.location-map {
+    width: 100%;
+    height: 450px;
+    border: none;
+}

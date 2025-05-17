@@ -7,13 +7,13 @@
       <div class="mainsquad">
         <h2 class="section-title">OUR SQUAD IN 2025</h2>
       </div>
-      <div class="player-filter">
         <h1>Our Players</h1>
-        <h3>All</h3>
-        <h3>Bowlers</h3>
-        <h3>All Rounders</h3>
-        <h3>Batters</h3>
-        <h3>Wicket Keeper</h3>
+      <div class="player-filter">
+        <p>All</p>
+        <p>Bowlers</p>
+        <p>All Rounders</p>
+        <p>Batters</p>
+        <p>Wicket Keeper</p>
       </div>
       <div class="player-grid">
         <div class="player-card">

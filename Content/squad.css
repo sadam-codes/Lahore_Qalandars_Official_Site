@@ -24,8 +24,16 @@
     margin-bottom: 2rem;
 }
 
-.player-filter {
-    margin-bottom: 2rem;
+.player-filter{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding:20px 0px;
+ 
+}
+.player-filter p{
+
+    margin: 0px 30px;
 }
 
     .player-filter button {

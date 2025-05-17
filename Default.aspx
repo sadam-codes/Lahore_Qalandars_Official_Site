@@ -8,7 +8,7 @@
           Get all the latest news, updates about Lahore Qalandars. <br />
           Pakistan’s Biggest Sporting Franchise.
         </p>
-        <a href="#" class="cta-button">PSL X</a>
+        <a href="#" class="cta-button">PSL 10</a>
       </div>
     </section>
 

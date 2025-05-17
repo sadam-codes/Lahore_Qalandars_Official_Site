@@ -11,12 +11,12 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <link rel="stylesheet" href="Content/Site.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <link rel="stylesheet" href="Content/about.css" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
 </head>
 <body>
@@ -55,12 +55,12 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-               <footer class="footer">
+    <footer class="footer">
       <div class="footer-content">
         <!-- Logo and Socials -->
         <div class="footer-column logo-section">
           <img
-            src="/Content/images/Header-Logo.png"
+            src="Content/images/Header-Logo.png"
             alt="Lahore Qalandars Logo"
             class="footer-logo"
           />
@@ -111,9 +111,13 @@
 
       <!-- Copyright -->
       <div class="footer-bottom">
-        <p>Copyright © Lahore Qalandars 2025 | Privacy Policy</p>
+        <p>
+          This is a fan-made project / educational demo and is not affiliated
+          with the official Lahore Qalandars organization
+        </p>
       </div>
     </footer>
+
         </div>
     </form>
     <asp:PlaceHolder runat="server">

@@ -235,14 +235,3 @@
     transition: background 0.3s ease;
 }
 
-.location-section {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-.location-map {
-    width: 100%;
-    height: 450px;
-    border: none;
-}

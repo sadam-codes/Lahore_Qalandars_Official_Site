@@ -35,7 +35,7 @@
         <div class="image">
           <img
             src="/Content/images/shaheen-shah.png"
-            alt="Player with trophy"
+            alt="Players with trophy"
           />
  
         </div>

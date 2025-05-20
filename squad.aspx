@@ -30,10 +30,10 @@
         </div>
 
         <div class="player-card">
-          <img src="Content/images/darryl-mitchle.png" alt="Player 5" />
+          <img src="Content/images/darryl-mitchle.png" alt="darryl-mitchle" />
         </div>
         <div class="player-card">
-          <img src="Content/images/FAKHAR-ZAMAN-5.png" alt="Player 6" />
+          <img src="Content/images/FAKHAR-ZAMAN-5.png" alt="Fakhar zaman" />
         </div>
         <div class="player-card">
           <img src="Content/images/mohammad-naeem.png" alt="Player 7" />

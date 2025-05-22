@@ -11,8 +11,7 @@
             <img src="/Content/images/aneeq.jpg" alt="Aneeq Qureshi" class="lq-hater-img" />
             <div class="lq-hater-content">
                 <h3 class="lq-hater-name">Aneeq Qureshi</h3>
-                <p class="lq-hater-desc">"Can't handle pressure!" – Finals say hi, bro. 🏆</p>
-                <span class="lq-hater-badge">💢 Master Critic</span>
+                
             </div>
         </div>
           <!-- Hater Card: Haseeb -->
@@ -20,8 +19,6 @@
       <img src="/Content/images/haseeb.jpg" alt="Haseeb" class="lq-hater-img" />
       <div class="lq-hater-content">
           <h3 class="lq-hater-name">Haseeb Malik</h3>
-          <p class="lq-hater-desc">"Just lucky!" – Bro, we win. You cry. Simple.</p>
-          <span class="lq-hater-badge">🔥 Level 99 Hater</span>
       </div>
   </div>
         <!-- Hater Card: Abdullah Adeel -->
@@ -29,8 +26,7 @@
             <img src="/Content/images/abdullah.jpg" alt="Abdullah Adeel" class="lq-hater-img" />
             <div class="lq-hater-content">
                 <h3 class="lq-hater-name">Abdullah Adeel</h3>
-                <p class="lq-hater-desc">"Overrated!" – But still watching us every time 😂</p>
-                <span class="lq-hater-badge">😤 Trophy Denier</span>
+               
             </div>
         </div>
 
@@ -39,8 +35,7 @@
             <img src="/Content/images/matti.jpg" alt="Matti-ul-Hassan" class="lq-hater-img" />
             <div class="lq-hater-content">
                 <h3 class="lq-hater-name">Matti-ul-Hassan</h3>
-                <p class="lq-hater-desc">"No real fans!" – Lahore says: bro stop lying 😎</p>
-                <span class="lq-hater-badge">😎 Silent Admirer</span>
+             
             </div>
         </div>
 

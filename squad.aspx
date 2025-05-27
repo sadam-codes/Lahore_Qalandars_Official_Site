@@ -6,7 +6,7 @@
      <section class="squad-section">
       <div class="mainsquad">
         <h2 class="section-title">OUR SQUAD IN 2025</h2>
-      </div>
+      </div>z
         <h1>Our Players</h1>
       <div class="player-filter">
         <p>All</p>

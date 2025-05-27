@@ -116,14 +116,14 @@
           <img src="Content/images/LQ.png" alt="Team 2" class="team-logo" />
         </div>
          <div class="match-card">
-          <img src="Content/images/LQ.png" alt="Team 1" class="team-logo" />
+          <img src="Content/images/LQ.png" alt="Lahore" class="team-logo" />
           <div class="match-info">
             <h2>Final Match</h2>
             <p>Sunday, May 25, 2025</p>
             <div class="match-time">7:30 PM</div>
             <p>Gaddafi Cricket Stadium</p>
           </div>
-          <img src="Content/images/quetta.png" alt="Team 2" class="team-logo" />
+          <img src="Content/images/quetta.png" alt="quetta" class="team-logo" />
         </div>
       </div>
 

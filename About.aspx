@@ -142,7 +142,7 @@
             />
           </div>
           <div class="card-face card-back">
-            <p>High-quality practice nets for skill improvement.</p>
+            <p>High quality practice nets for skill improvement.</p>
           </div>
         </div>
       </div>
@@ -158,7 +158,7 @@
             />
           </div>
           <div class="card-face card-back">
-            <p>High-quality coaches for skill improvement.</p>
+            <p>High quality coaches for skill improvement.</p>
           </div>
         </div>
       </div>
@@ -174,7 +174,7 @@
             />
           </div>
           <div class="card-face card-back">
-            <p>World-class stadium access for tournaments and training.</p>
+            <p>World class stadium access for tournaments and training.</p>
           </div>
         </div>
       </div>

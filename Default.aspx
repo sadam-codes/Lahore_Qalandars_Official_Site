@@ -3,12 +3,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <section class="hero">
       <div class="hero-text">
-        <h1>WELCOME TO THE WORLD OF QALANDARS</h1>
+        <h1>WELCOME TO THE WORLD OF Lahore QALANDARS</h1>
         <p>
           Get all the latest news, updates about Lahore Qalandars. <br />
           Pakistan’s Biggest Sporting Franchise.
         </p>
-        <a href="#" class="cta-button">PSL 10</a>
+        <a href="#" class="cta-button">PSL X</a>
       </div>
     </section>
 
